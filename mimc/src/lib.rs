@@ -8,7 +8,6 @@ use ff::*;
 #[PrimeFieldGenerator = "7"]
 pub struct Fr(FrRepr);
 
-extern crate num;
 extern crate num_bigint;
 use num_bigint::{BigInt, Sign};
 use tiny_keccak::Keccak;
